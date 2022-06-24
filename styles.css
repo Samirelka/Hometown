@@ -1,0 +1,98 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+img {
+    width: 100px;
+}
+
+.herosection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Lisbon+Hotels+Best+Views+-+Header.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-top: 5px solid lightgray;
+    border-bottom: 5px solid lightgray;
+}
+
+#titel{
+    background: #457B9D;
+    color: white;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    margin: 0px 250px;
+    padding: 10px 20px;
+}
+
+#subtitel{
+    color: white;
+    margin: 21px;
+    text-shadow: 0 0 10px black;
+}
+
+.activitiessection{
+    background: #ddb892;
+    border: 1px solid lightgray;
+    border-bottom: 7px solid lightgray;
+}
+
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto{
+    border: 3px solid white;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.deel1{
+    width: 100%;
+    margin: 10px;
+}
+
+.vetgedrukt{
+    font-weight: bold;
+}
+
+.laatste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d5bdaf;
+    margin: 50px 160px;
+    border-radius: 10px;
+    border-bottom: 6px solid #8d99ae;
+}
+
+#avatar{
+    width: 250px;
+    height: 250px;
+    margin: 23px 10px 23px 13px;
+    border-radius: 10px; 
+}
+
+.tekst{
+    margin: 15px;
+}
